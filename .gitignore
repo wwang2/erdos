@@ -1,0 +1,20 @@
+# research-everything state
+.re/
+.worktrees/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Large artifacts (checkpoints, datasets)
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# OS
+.DS_Store
+
+# omc
+.omc/
