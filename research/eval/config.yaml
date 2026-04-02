@@ -1,0 +1,26 @@
+metric:
+  name: "C5_upper_bound"
+  description: "Upper bound on C₅ via cross-correlation of step function"
+  direction: "minimize"
+  formula: "max_k (2/n) Σ_i h_i(1 - h_{i+k})"
+
+golden_examples:
+  - name: "trivial bad (uniform h=0.5)"
+    description: "Uniform step function — worst case, should give 0.5"
+    input: "baselines/trivial_bad.py"
+    expected_range: [0.499, 0.501]
+
+  - name: "known best (Together AI SOTA)"
+    description: "Current SOTA from Together AI, March 2026"
+    input: "baselines/together_ai_2026.py"
+    expected_range: [0.38086, 0.38088]
+
+  - name: "Haugland 2016 (human best)"
+    description: "Best human-constructed solution"
+    input: "baselines/haugland_2016.py"
+    expected_range: [0.38092, 0.38093]
+
+  - name: "degenerate (invalid)"
+    description: "Values outside [0,1] — should be rejected"
+    input: "baselines/degenerate.py"
+    expected: error
