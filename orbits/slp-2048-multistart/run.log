@@ -1,0 +1,352 @@
+Loading slp-1024-multistart solution and tiling to 2048...
+Tiled seed objective: 0.380870088424490
+Seed sum: 1024.000000 (expected 1024.0)
+
+=== Initial run from tiled seed ===
+  [tiled-seed] Start obj=0.380870088424490
+  [tiled-seed] iter=   1 obj=0.380870088424490 alpha=0.00000 active=500 delta=0.0500 improve=0.00e+00 t=10.2s
+  [tiled-seed] iter=   2 obj=0.380870088424490 alpha=0.00000 active=500 delta=0.0350 improve=0.00e+00 t=20.4s
+  [tiled-seed] iter=   3 obj=0.380870088424490 alpha=0.00000 active=500 delta=0.0245 improve=0.00e+00 t=26.9s
+  [tiled-seed] iter=  10 obj=0.380870088330542 alpha=0.00000 active=500 delta=0.0123 improve=4.06e-11 t=80.0s
+  [tiled-seed] iter=  20 obj=0.380870088324727 alpha=0.00000 active=500 delta=0.0009 improve=0.00e+00 t=119.1s
+  [tiled-seed] iter=  30 obj=0.380870088324574 alpha=0.00000 active=500 delta=0.0000 improve=0.00e+00 t=156.2s
+  [tiled-seed] Early stop at iter 31 (improve=0.00e+00, delta=1.87e-05)
+  [tiled-seed] Done in 158.0s. Best obj=0.380870088324574
+*** NEW BEST: 0.380870088324574 ***
+
+--- Starting 25 perturbation restarts (best so far: 0.380870088324574) ---
+
+=== Restart 1/25: scale=0.0010, init_obj=0.381019952103179 ===
+  [restart_1_scale=0.001] Start obj=0.381020037735226
+  [restart_1_scale=0.001] iter=   1 obj=0.380972972759246 alpha=0.00843 active=500 delta=0.0500 improve=4.71e-05 t=0.1s
+  [restart_1_scale=0.001] iter=   2 obj=0.380970254668317 alpha=0.00051 active=500 delta=0.0550 improve=2.72e-06 t=0.3s
+  [restart_1_scale=0.001] iter=   3 obj=0.380970254668317 alpha=0.00000 active=500 delta=0.0605 improve=0.00e+00 t=0.6s
+  [restart_1_scale=0.001] iter=  10 obj=0.380970229397670 alpha=0.00000 active=500 delta=0.0193 improve=0.00e+00 t=82.5s
+  [restart_1_scale=0.001] iter=  20 obj=0.380967659381117 alpha=0.00000 active=500 delta=0.0009 improve=0.00e+00 t=102.7s
+  [restart_1_scale=0.001] iter=  30 obj=0.380966368420313 alpha=0.00000 active=500 delta=0.0001 improve=0.00e+00 t=106.2s
+  [restart_1_scale=0.001] Early stop at iter 32 (improve=0.00e+00, delta=3.23e-05)
+  [restart_1_scale=0.001] Done in 107.3s. Best obj=0.380966366995504
+  No improvement: 0.380966366995504 >= 0.380870088324574
+
+=== Restart 2/25: scale=0.0030, init_obj=0.381352159910777 ===
+  [restart_2_scale=0.003] Start obj=0.381352436946913
+  [restart_2_scale=0.003] iter=   1 obj=0.381216372076203 alpha=0.01340 active=500 delta=0.0500 improve=1.36e-04 t=0.2s
+  [restart_2_scale=0.003] iter=   2 obj=0.381216372076203 alpha=0.00000 active=500 delta=0.0550 improve=0.00e+00 t=0.6s
+  [restart_2_scale=0.003] iter=   3 obj=0.381216290116487 alpha=0.00125 active=500 delta=0.0385 improve=8.20e-08 t=1.0s
+  [restart_2_scale=0.003] iter=  10 obj=0.381216027189976 alpha=0.00000 active=500 delta=0.0078 improve=0.00e+00 t=3.2s
+  [restart_2_scale=0.003] iter=  20 obj=0.381216020992946 alpha=0.00000 active=500 delta=0.0005 improve=0.00e+00 t=9.7s
+  [restart_2_scale=0.003] iter=  30 obj=0.381216020992888 alpha=0.00000 active=211 delta=0.0000 improve=0.00e+00 t=11.8s
+  [restart_2_scale=0.003] Early stop at iter 31 (improve=0.00e+00, delta=1.19e-05)
+  [restart_2_scale=0.003] Done in 11.9s. Best obj=0.381216020992888
+  No improvement: 0.381216020992888 >= 0.380870088324574
+
+=== Restart 3/25: scale=0.0050, init_obj=0.381613246955463 ===
+  [restart_3_scale=0.005] Start obj=0.381613599952137
+  [restart_3_scale=0.005] iter=   1 obj=0.381318121845800 alpha=0.02212 active=500 delta=0.0500 improve=2.95e-04 t=0.1s
+  [restart_3_scale=0.005] iter=   2 obj=0.381317779411638 alpha=0.00004 active=500 delta=0.0550 improve=3.42e-07 t=0.6s
+  [restart_3_scale=0.005] iter=   3 obj=0.381317779411638 alpha=0.00000 active=500 delta=0.0605 improve=0.00e+00 t=1.0s
+  [restart_3_scale=0.005] iter=  10 obj=0.381317779411638 alpha=0.00000 active=500 delta=0.0050 improve=0.00e+00 t=263.2s
+  [restart_3_scale=0.005] iter=  20 obj=0.381317775823430 alpha=0.00000 active=208 delta=0.0003 improve=0.00e+00 t=277.9s
+  [restart_3_scale=0.005] iter=  30 obj=0.381317775820979 alpha=0.00000 active=53 delta=0.0000 improve=0.00e+00 t=279.0s
+  [restart_3_scale=0.005] Early stop at iter 31 (improve=0.00e+00, delta=1.19e-05)
+  [restart_3_scale=0.005] Done in 279.1s. Best obj=0.381317775820979
+  No improvement: 0.381317775820979 >= 0.380870088324574
+
+=== Restart 4/25: scale=0.0100, init_obj=0.382391389892316 ===
+  [restart_4_scale=0.01] Start obj=0.382391399232871
+  [restart_4_scale=0.01] iter=   1 obj=0.381628757826003 alpha=0.05667 active=500 delta=0.0500 improve=7.63e-04 t=0.2s
+  [restart_4_scale=0.01] iter=   2 obj=0.381628757826003 alpha=0.00000 active=500 delta=0.0550 improve=0.00e+00 t=0.5s
+  [restart_4_scale=0.01] iter=   3 obj=0.381628757826003 alpha=0.00000 active=500 delta=0.0385 improve=0.00e+00 t=0.8s
+  [restart_4_scale=0.01] iter=  10 obj=0.381628757826003 alpha=0.00000 active=500 delta=0.0032 improve=0.00e+00 t=3.1s
+  [restart_4_scale=0.01] iter=  20 obj=0.381621020606118 alpha=0.00000 active=237 delta=0.0003 improve=6.82e-11 t=6.9s
+  [restart_4_scale=0.01] iter=  30 obj=0.381621020603434 alpha=0.00000 active=75 delta=0.0000 improve=0.00e+00 t=8.6s
+  [restart_4_scale=0.01] Early stop at iter 31 (improve=0.00e+00, delta=1.19e-05)
+  [restart_4_scale=0.01] Done in 8.7s. Best obj=0.381621020603434
+  No improvement: 0.381621020603434 >= 0.380870088324574
+
+=== Restart 5/25: scale=0.0200, init_obj=0.384364502717155 ===
+  [restart_5_scale=0.02] Start obj=0.384368626631622
+  [restart_5_scale=0.02] iter=   1 obj=0.384321138150050 alpha=0.06473 active=248 delta=0.0500 improve=4.75e-05 t=0.1s
+  [restart_5_scale=0.02] iter=   2 obj=0.384320640560337 alpha=0.00032 active=278 delta=0.0550 improve=4.98e-07 t=0.2s
+  [restart_5_scale=0.02] iter=   3 obj=0.384320640560337 alpha=0.00000 active=278 delta=0.0605 improve=0.00e+00 t=0.2s
+  [restart_5_scale=0.02] iter=  10 obj=0.384181265528150 alpha=0.00000 active=500 delta=0.0477 improve=0.00e+00 t=1.8s
+  [restart_5_scale=0.02] iter=  20 obj=0.384181265518105 alpha=0.00000 active=256 delta=0.0021 improve=0.00e+00 t=3.7s
+  [restart_5_scale=0.02] iter=  30 obj=0.384181265517254 alpha=0.00000 active=36 delta=0.0001 improve=0.00e+00 t=5.0s
+  [restart_5_scale=0.02] Early stop at iter 31 (improve=0.00e+00, delta=4.61e-05)
+  [restart_5_scale=0.02] Done in 5.0s. Best obj=0.384181265517254
+  No improvement: 0.384181265517254 >= 0.380870088324574
+
+=== Restart 6/25: scale=0.0010, init_obj=0.381008824736860 ===
+  [restart_6_scale=0.001] Start obj=0.381008985444545
+  [restart_6_scale=0.001] iter=   1 obj=0.380949115718664 alpha=0.00447 active=500 delta=0.0500 improve=5.99e-05 t=0.2s
+  [restart_6_scale=0.001] iter=   2 obj=0.380949115718664 alpha=0.00000 active=500 delta=0.0550 improve=0.00e+00 t=0.4s
+  [restart_6_scale=0.001] iter=   3 obj=0.380949115718664 alpha=0.00000 active=500 delta=0.0385 improve=0.00e+00 t=0.7s
+  [restart_6_scale=0.001] iter=  10 obj=0.380949115718664 alpha=0.00000 active=500 delta=0.0032 improve=0.00e+00 t=2.4s
+  [restart_6_scale=0.001] iter=  20 obj=0.380948324921357 alpha=0.00000 active=500 delta=0.0002 improve=0.00e+00 t=21.3s
+  [restart_6_scale=0.001] iter=  30 obj=0.380948324698121 alpha=0.00000 active=500 delta=0.0000 improve=0.00e+00 t=29.3s
+  [restart_6_scale=0.001] Early stop at iter 31 (improve=0.00e+00, delta=1.19e-05)
+  [restart_6_scale=0.001] Done in 29.5s. Best obj=0.380948324698121
+  No improvement: 0.380948324698121 >= 0.380870088324574
+
+=== Restart 7/25: scale=0.0030, init_obj=0.381435934499411 ===
+  [restart_7_scale=0.003] Start obj=0.381436066337364
+  [restart_7_scale=0.003] iter=   1 obj=0.381217154416508 alpha=0.02054 active=500 delta=0.0500 improve=2.19e-04 t=0.2s
+  [restart_7_scale=0.003] iter=   2 obj=0.381209848327882 alpha=0.00162 active=500 delta=0.0550 improve=7.31e-06 t=0.4s
+  [restart_7_scale=0.003] iter=   3 obj=0.381209798039835 alpha=0.00000 active=500 delta=0.0605 improve=5.03e-08 t=0.6s
+  [restart_7_scale=0.003] iter=  10 obj=0.381209793481944 alpha=0.00000 active=500 delta=0.0193 improve=0.00e+00 t=2.3s
+  [restart_7_scale=0.003] iter=  20 obj=0.381209793463500 alpha=0.00000 active=500 delta=0.0009 improve=0.00e+00 t=4.9s
+  [restart_7_scale=0.003] iter=  30 obj=0.381209793463190 alpha=0.00000 active=112 delta=0.0000 improve=3.10e-13 t=7.1s
+  [restart_7_scale=0.003] Early stop at iter 31 (improve=0.00e+00, delta=1.87e-05)
+  [restart_7_scale=0.003] Done in 7.2s. Best obj=0.381209793463190
+  No improvement: 0.381209793463190 >= 0.380870088324574
+
+=== Restart 8/25: scale=0.0050, init_obj=0.381651174554172 ===
+  [restart_8_scale=0.005] Start obj=0.381651545037951
+  [restart_8_scale=0.005] iter=   1 obj=0.381361739249907 alpha=0.03476 active=500 delta=0.0500 improve=2.90e-04 t=0.2s
+  [restart_8_scale=0.005] iter=   2 obj=0.381352726467899 alpha=0.00125 active=500 delta=0.0550 improve=9.01e-06 t=0.4s
+  [restart_8_scale=0.005] iter=   3 obj=0.381352726467899 alpha=0.00000 active=500 delta=0.0605 improve=0.00e+00 t=0.6s
+  [restart_8_scale=0.005] iter=  10 obj=0.381352726467899 alpha=0.00000 active=500 delta=0.0050 improve=0.00e+00 t=2.4s
+  [restart_8_scale=0.005] iter=  20 obj=0.381352553353035 alpha=0.00000 active=500 delta=0.0005 improve=0.00e+00 t=7.0s
+  [restart_8_scale=0.005] iter=  30 obj=0.381352553353035 alpha=0.00000 active=64 delta=0.0000 improve=0.00e+00 t=8.2s
+  [restart_8_scale=0.005] Early stop at iter 31 (improve=0.00e+00, delta=7.56e-06)
+  [restart_8_scale=0.005] Done in 8.2s. Best obj=0.381352553353035
+  No improvement: 0.381352553353035 >= 0.380870088324574
+
+=== Restart 9/25: scale=0.0100, init_obj=0.382639362622425 ===
+  [restart_9_scale=0.01] Start obj=0.382639626633603
+  [restart_9_scale=0.01] iter=   1 obj=0.382158833903603 alpha=0.08162 active=500 delta=0.0500 improve=4.81e-04 t=0.1s
+  [restart_9_scale=0.01] iter=   2 obj=0.382157884621477 alpha=0.00024 active=500 delta=0.0550 improve=9.49e-07 t=0.4s
+  [restart_9_scale=0.01] iter=   3 obj=0.382152855859724 alpha=0.01842 active=500 delta=0.0605 improve=5.03e-06 t=0.6s
+  [restart_9_scale=0.01] iter=  10 obj=0.382151839837874 alpha=0.00000 active=500 delta=0.0477 improve=0.00e+00 t=2.7s
+  [restart_9_scale=0.01] iter=  20 obj=0.382151839837356 alpha=0.00000 active=145 delta=0.0013 improve=5.18e-13 t=7.3s
+  [restart_9_scale=0.01] iter=  30 obj=0.382151839837356 alpha=0.00000 active=63 delta=0.0001 improve=0.00e+00 t=8.3s
+  [restart_9_scale=0.01] Early stop at iter 31 (improve=8.05e-15, delta=4.61e-05)
+  [restart_9_scale=0.01] Done in 8.4s. Best obj=0.382151839837348
+  No improvement: 0.382151839837348 >= 0.380870088324574
+
+=== Restart 10/25: scale=0.0200, init_obj=0.384148615919161 ===
+  [restart_10_scale=0.02] Start obj=0.384152872168396
+  [restart_10_scale=0.02] iter=   1 obj=0.384152872168396 alpha=0.00000 active=125 delta=0.0500 improve=0.00e+00 t=0.0s
+  [restart_10_scale=0.02] iter=   2 obj=0.384152872168396 alpha=0.00000 active=125 delta=0.0350 improve=0.00e+00 t=0.1s
+  [restart_10_scale=0.02] iter=   3 obj=0.384152872168396 alpha=0.00000 active=125 delta=0.0245 improve=0.00e+00 t=0.1s
+  [restart_10_scale=0.02] iter=  10 obj=0.384152872168396 alpha=0.00000 active=60 delta=0.0020 improve=0.00e+00 t=0.4s
+  [restart_10_scale=0.02] iter=  20 obj=0.384152872168396 alpha=0.00000 active=5 delta=0.0001 improve=0.00e+00 t=0.7s
+  [restart_10_scale=0.02] iter=  30 obj=0.384152872168396 alpha=0.00000 active=1 delta=0.0000 improve=0.00e+00 t=1.1s
+  [restart_10_scale=0.02] Early stop at iter 30 (no_improve=30)
+  [restart_10_scale=0.02] Done in 1.1s. Best obj=0.384152872168396
+  No improvement: 0.384152872168396 >= 0.380870088324574
+
+=== Restart 11/25: scale=0.0010, init_obj=0.381079936930651 ===
+  [restart_11_scale=0.001] Start obj=0.381080040180437
+  [restart_11_scale=0.001] iter=   1 obj=0.380985663838246 alpha=0.00710 active=500 delta=0.0500 improve=9.44e-05 t=0.2s
+  [restart_11_scale=0.001] iter=   2 obj=0.380981345762391 alpha=0.00035 active=500 delta=0.0550 improve=4.32e-06 t=0.5s
+  [restart_11_scale=0.001] iter=   3 obj=0.380981345762391 alpha=0.00000 active=500 delta=0.0605 improve=0.00e+00 t=0.8s
+  [restart_11_scale=0.001] iter=  10 obj=0.380981345762391 alpha=0.00000 active=500 delta=0.0050 improve=0.00e+00 t=3.0s
+  [restart_11_scale=0.001] iter=  20 obj=0.380981339036291 alpha=0.00000 active=500 delta=0.0003 improve=0.00e+00 t=6.8s
+  [restart_11_scale=0.001] iter=  30 obj=0.380981339035952 alpha=0.00000 active=405 delta=0.0000 improve=0.00e+00 t=10.5s
+  [restart_11_scale=0.001] Early stop at iter 31 (improve=0.00e+00, delta=7.56e-06)
+  [restart_11_scale=0.001] Done in 10.7s. Best obj=0.380981339035952
+  No improvement: 0.380981339035952 >= 0.380870088324574
+
+=== Restart 12/25: scale=0.0030, init_obj=0.381334827370311 ===
+  [restart_12_scale=0.003] Start obj=0.381335479026029
+  [restart_12_scale=0.003] iter=   1 obj=0.381279044090066 alpha=0.02528 active=500 delta=0.0500 improve=5.64e-05 t=0.2s
+  [restart_12_scale=0.003] iter=   2 obj=0.381270271799036 alpha=0.00106 active=500 delta=0.0550 improve=8.77e-06 t=0.4s
+  [restart_12_scale=0.003] iter=   3 obj=0.381270047813955 alpha=0.00003 active=500 delta=0.0605 improve=2.24e-07 t=0.7s
+  [restart_12_scale=0.003] iter=  10 obj=0.381270047813955 alpha=0.00000 active=500 delta=0.0078 improve=0.00e+00 t=3.3s
+  [restart_12_scale=0.003] iter=  20 obj=0.381270039127104 alpha=0.00000 active=500 delta=0.0009 improve=0.00e+00 t=17.1s
+  [restart_12_scale=0.003] iter=  30 obj=0.381270039127104 alpha=0.00000 active=230 delta=0.0000 improve=0.00e+00 t=19.8s
+  [restart_12_scale=0.003] Early stop at iter 31 (improve=0.00e+00, delta=1.19e-05)
+  [restart_12_scale=0.003] Done in 19.9s. Best obj=0.381270039127104
+  No improvement: 0.381270039127104 >= 0.380870088324574
+
+=== Restart 13/25: scale=0.0050, init_obj=0.381731948357215 ===
+  [restart_13_scale=0.005] Start obj=0.381732370511523
+  [restart_13_scale=0.005] iter=   1 obj=0.381357420082832 alpha=0.03476 active=500 delta=0.0500 improve=3.75e-04 t=0.2s
+  [restart_13_scale=0.005] iter=   2 obj=0.381350813977421 alpha=0.00162 active=500 delta=0.0550 improve=6.61e-06 t=0.6s
+  [restart_13_scale=0.005] iter=   3 obj=0.381350813977421 alpha=0.00000 active=500 delta=0.0605 improve=0.00e+00 t=1.2s
+  [restart_13_scale=0.005] iter=  10 obj=0.381350800825042 alpha=0.00000 active=500 delta=0.0078 improve=5.75e-10 t=21.2s
+  [restart_13_scale=0.005] iter=  20 obj=0.381350800773768 alpha=0.00000 active=500 delta=0.0006 improve=0.00e+00 t=331.5s
+  [restart_13_scale=0.005] iter=  30 obj=0.381350800773768 alpha=0.00000 active=149 delta=0.0000 improve=0.00e+00 t=333.8s
+  [restart_13_scale=0.005] Early stop at iter 31 (improve=3.96e-14, delta=1.33e-05)
+  [restart_13_scale=0.005] Done in 333.9s. Best obj=0.381350800773729
+  No improvement: 0.381350800773729 >= 0.380870088324574
+
+=== Restart 14/25: scale=0.0100, init_obj=0.382606129454886 ===
+  [restart_14_scale=0.01] Start obj=0.382606867862354
+  [restart_14_scale=0.01] iter=   1 obj=0.382606867862354 alpha=0.00000 active=455 delta=0.0500 improve=0.00e+00 t=0.1s
+  [restart_14_scale=0.01] iter=   2 obj=0.382606867862354 alpha=0.00000 active=455 delta=0.0350 improve=0.00e+00 t=0.2s
+  [restart_14_scale=0.01] iter=   3 obj=0.382606867862354 alpha=0.00000 active=455 delta=0.0245 improve=0.00e+00 t=0.4s
+  [restart_14_scale=0.01] iter=  10 obj=0.382420187296216 alpha=0.00000 active=500 delta=0.0078 improve=0.00e+00 t=1.6s
+  [restart_14_scale=0.01] iter=  20 obj=0.382420187296216 alpha=0.00000 active=92 delta=0.0002 improve=0.00e+00 t=3.7s
+  [restart_14_scale=0.01] iter=  30 obj=0.382420187296216 alpha=0.00000 active=16 delta=0.0000 improve=0.00e+00 t=4.2s
+  [restart_14_scale=0.01] Early stop at iter 31 (improve=0.00e+00, delta=3.06e-06)
+  [restart_14_scale=0.01] Done in 4.3s. Best obj=0.382420187296216
+  No improvement: 0.382420187296216 >= 0.380870088324574
+
+=== Restart 15/25: scale=0.0200, init_obj=0.383853578967525 ===
+  [restart_15_scale=0.02] Start obj=0.383854430801822
+  [restart_15_scale=0.02] iter=   1 obj=0.383854430801822 alpha=0.00000 active=130 delta=0.0500 improve=0.00e+00 t=0.0s
+  [restart_15_scale=0.02] iter=   2 obj=0.383854430801822 alpha=0.00000 active=130 delta=0.0350 improve=0.00e+00 t=0.1s
+  [restart_15_scale=0.02] iter=   3 obj=0.383854430801822 alpha=0.00000 active=130 delta=0.0245 improve=0.00e+00 t=0.1s
+  [restart_15_scale=0.02] iter=  10 obj=0.383854430801822 alpha=0.00000 active=50 delta=0.0020 improve=0.00e+00 t=0.4s
+  [restart_15_scale=0.02] iter=  20 obj=0.383854430801822 alpha=0.00000 active=1 delta=0.0001 improve=0.00e+00 t=0.7s
+  [restart_15_scale=0.02] iter=  30 obj=0.383854430801822 alpha=0.00000 active=1 delta=0.0000 improve=0.00e+00 t=1.0s
+  [restart_15_scale=0.02] Early stop at iter 30 (no_improve=30)
+  [restart_15_scale=0.02] Done in 1.0s. Best obj=0.383854430801822
+  No improvement: 0.383854430801822 >= 0.380870088324574
+
+=== Restart 16/25: scale=0.0010, init_obj=0.381039322448373 ===
+  [restart_16_scale=0.001] Start obj=0.381039417010716
+  [restart_16_scale=0.001] iter=   1 obj=0.381033061708914 alpha=0.00963 active=500 delta=0.0500 improve=6.36e-06 t=0.2s
+  [restart_16_scale=0.001] iter=   2 obj=0.381009831487140 alpha=0.00181 active=500 delta=0.0550 improve=2.32e-05 t=0.3s
+  [restart_16_scale=0.001] iter=   3 obj=0.381009516388562 alpha=0.00003 active=500 delta=0.0605 improve=3.15e-07 t=0.5s
+  [restart_16_scale=0.001] iter=  10 obj=0.381009501155329 alpha=0.00000 active=500 delta=0.0123 improve=0.00e+00 t=1.8s
+  [restart_16_scale=0.001] iter=  20 obj=0.381009501155329 alpha=0.00000 active=500 delta=0.0003 improve=0.00e+00 t=3.8s
+  [restart_16_scale=0.001] iter=  30 obj=0.381009501155329 alpha=0.00000 active=385 delta=0.0000 improve=0.00e+00 t=5.3s
+  [restart_16_scale=0.001] Early stop at iter 31 (improve=0.00e+00, delta=4.81e-06)
+  [restart_16_scale=0.001] Done in 5.4s. Best obj=0.381009501155329
+  No improvement: 0.381009501155329 >= 0.380870088324574
+
+=== Restart 17/25: scale=0.0030, init_obj=0.381278290093958 ===
+  [restart_17_scale=0.003] Start obj=0.381278376258575
+  [restart_17_scale=0.003] iter=   1 obj=0.381065897809450 alpha=0.01591 active=500 delta=0.0500 improve=2.12e-04 t=0.2s
+  [restart_17_scale=0.003] iter=   2 obj=0.381064877877657 alpha=0.00009 active=500 delta=0.0550 improve=1.02e-06 t=0.4s
+  [restart_17_scale=0.003] iter=   3 obj=0.381064877877657 alpha=0.00000 active=500 delta=0.0605 improve=0.00e+00 t=0.6s
+  [restart_17_scale=0.003] iter=  10 obj=0.381064877877657 alpha=0.00000 active=500 delta=0.0050 improve=0.00e+00 t=2.5s
+  [restart_17_scale=0.003] iter=  20 obj=0.381063349176164 alpha=0.00000 active=500 delta=0.0002 improve=0.00e+00 t=6.4s
+  [restart_17_scale=0.003] iter=  30 obj=0.381063349176164 alpha=0.00000 active=125 delta=0.0000 improve=0.00e+00 t=8.0s
+  [restart_17_scale=0.003] Early stop at iter 31 (improve=0.00e+00, delta=3.06e-06)
+  [restart_17_scale=0.003] Done in 8.1s. Best obj=0.381063349176164
+  No improvement: 0.381063349176164 >= 0.380870088324574
+
+=== Restart 18/25: scale=0.0050, init_obj=0.381760683760949 ===
+  [restart_18_scale=0.005] Start obj=0.381760961967993
+  [restart_18_scale=0.005] iter=   1 obj=0.381388421305410 alpha=0.04324 active=500 delta=0.0500 improve=3.73e-04 t=0.1s
+  [restart_18_scale=0.005] iter=   2 obj=0.381385215817707 alpha=0.00411 active=500 delta=0.0550 improve=3.21e-06 t=0.7s
+  [restart_18_scale=0.005] iter=   3 obj=0.381376143991091 alpha=0.00237 active=500 delta=0.0605 improve=9.07e-06 t=1.0s
+  [restart_18_scale=0.005] iter=  10 obj=0.381376143991091 alpha=0.00000 active=500 delta=0.0078 improve=0.00e+00 t=3.3s
+  [restart_18_scale=0.005] iter=  20 obj=0.381375944925975 alpha=0.00000 active=500 delta=0.0003 improve=0.00e+00 t=9.5s
+  [restart_18_scale=0.005] iter=  30 obj=0.381375943393161 alpha=0.00000 active=500 delta=0.0000 improve=0.00e+00 t=12.9s
+  [restart_18_scale=0.005] Early stop at iter 31 (improve=0.00e+00, delta=1.87e-05)
+  [restart_18_scale=0.005] Done in 13.0s. Best obj=0.381375943393161
+  No improvement: 0.381375943393161 >= 0.380870088324574
+
+=== Restart 19/25: scale=0.0100, init_obj=0.382384664964662 ===
+  [restart_19_scale=0.01] Start obj=0.382386236167059
+  [restart_19_scale=0.01] iter=   1 obj=0.381877158004822 alpha=0.06561 active=500 delta=0.0500 improve=5.09e-04 t=0.1s
+  [restart_19_scale=0.01] iter=   2 obj=0.381871370893414 alpha=0.00045 active=500 delta=0.0550 improve=5.79e-06 t=0.4s
+  [restart_19_scale=0.01] iter=   3 obj=0.381871258954706 alpha=0.00001 active=500 delta=0.0605 improve=1.12e-07 t=0.6s
+  [restart_19_scale=0.01] iter=  10 obj=0.381871258428786 alpha=0.00000 active=500 delta=0.0123 improve=0.00e+00 t=2.2s
+  [restart_19_scale=0.01] iter=  20 obj=0.381871258427867 alpha=0.00000 active=210 delta=0.0005 improve=0.00e+00 t=6.1s
+  [restart_19_scale=0.01] iter=  30 obj=0.381871258427867 alpha=0.00000 active=35 delta=0.0000 improve=0.00e+00 t=7.0s
+  [restart_19_scale=0.01] Early stop at iter 31 (improve=3.14e-14, delta=1.19e-05)
+  [restart_19_scale=0.01] Done in 7.0s. Best obj=0.381871258427835
+  No improvement: 0.381871258427835 >= 0.380870088324574
+
+=== Restart 20/25: scale=0.0200, init_obj=0.384564026470077 ===
+  [restart_20_scale=0.02] Start obj=0.384565777258844
+  [restart_20_scale=0.02] iter=   1 obj=0.384565777258844 alpha=0.00000 active=67 delta=0.0500 improve=0.00e+00 t=0.0s
+  [restart_20_scale=0.02] iter=   2 obj=0.384565777258844 alpha=0.00000 active=67 delta=0.0350 improve=0.00e+00 t=0.1s
+  [restart_20_scale=0.02] iter=   3 obj=0.384565777258844 alpha=0.00000 active=67 delta=0.0245 improve=0.00e+00 t=0.1s
+  [restart_20_scale=0.02] iter=  10 obj=0.384565777258844 alpha=0.00000 active=42 delta=0.0020 improve=0.00e+00 t=0.4s
+  [restart_20_scale=0.02] iter=  20 obj=0.384565777258844 alpha=0.00000 active=9 delta=0.0001 improve=0.00e+00 t=0.7s
+  [restart_20_scale=0.02] iter=  30 obj=0.384565777258844 alpha=0.00000 active=3 delta=0.0000 improve=0.00e+00 t=1.0s
+  [restart_20_scale=0.02] Early stop at iter 30 (no_improve=30)
+  [restart_20_scale=0.02] Done in 1.0s. Best obj=0.384565777258844
+  No improvement: 0.384565777258844 >= 0.380870088324574
+
+=== Restart 21/25: scale=0.0010, init_obj=0.381033980080198 ===
+  [restart_21_scale=0.001] Start obj=0.381034043071944
+  [restart_21_scale=0.001] iter=   1 obj=0.380951443439665 alpha=0.00710 active=500 delta=0.0500 improve=8.26e-05 t=0.1s
+  [restart_21_scale=0.001] iter=   2 obj=0.380950181616817 alpha=0.00014 active=500 delta=0.0550 improve=1.26e-06 t=0.4s
+  [restart_21_scale=0.001] iter=   3 obj=0.380950173923102 alpha=0.00000 active=500 delta=0.0605 improve=7.69e-09 t=0.6s
+  [restart_21_scale=0.001] iter=  10 obj=0.380950173762473 alpha=0.00000 active=500 delta=0.0123 improve=0.00e+00 t=2.4s
+  [restart_21_scale=0.001] iter=  20 obj=0.380950173762473 alpha=0.00000 active=500 delta=0.0003 improve=0.00e+00 t=6.0s
+  [restart_21_scale=0.001] iter=  30 obj=0.380950173762473 alpha=0.00000 active=350 delta=0.0000 improve=0.00e+00 t=8.1s
+  [restart_21_scale=0.001] Early stop at iter 31 (improve=0.00e+00, delta=4.81e-06)
+  [restart_21_scale=0.001] Done in 8.3s. Best obj=0.380950173762473
+  No improvement: 0.380950173762473 >= 0.380870088324574
+
+=== Restart 22/25: scale=0.0030, init_obj=0.381503200464548 ===
+  [restart_22_scale=0.003] Start obj=0.381503279990581
+  [restart_22_scale=0.003] iter=   1 obj=0.381287923724333 alpha=0.03002 active=500 delta=0.0500 improve=2.15e-04 t=0.2s
+  [restart_22_scale=0.003] iter=   2 obj=0.381287773784759 alpha=0.00643 active=500 delta=0.0550 improve=1.50e-07 t=0.4s
+  [restart_22_scale=0.003] iter=   3 obj=0.381287773784759 alpha=0.00000 active=500 delta=0.0605 improve=0.00e+00 t=0.6s
+  [restart_22_scale=0.003] iter=  10 obj=0.381287773784759 alpha=0.00000 active=500 delta=0.0050 improve=0.00e+00 t=2.9s
+  [restart_22_scale=0.003] iter=  20 obj=0.381287773784759 alpha=0.00000 active=165 delta=0.0001 improve=0.00e+00 t=7.6s
+  [restart_22_scale=0.003] iter=  30 obj=0.381287580216869 alpha=0.00000 active=87 delta=0.0000 improve=0.00e+00 t=8.6s
+  [restart_22_scale=0.003] Early stop at iter 31 (improve=0.00e+00, delta=3.06e-06)
+  [restart_22_scale=0.003] Done in 8.7s. Best obj=0.381287580216869
+  No improvement: 0.381287580216869 >= 0.380870088324574
+
+=== Restart 23/25: scale=0.0050, init_obj=0.381752251110722 ===
+  [restart_23_scale=0.005] Start obj=0.381752809384309
+  [restart_23_scale=0.005] iter=   1 obj=0.381409864355774 alpha=0.03430 active=500 delta=0.0500 improve=3.43e-04 t=0.1s
+  [restart_23_scale=0.005] iter=   2 obj=0.381383283601418 alpha=0.00270 active=500 delta=0.0550 improve=2.66e-05 t=0.4s
+  [restart_23_scale=0.005] iter=   3 obj=0.381381936238120 alpha=0.00023 active=500 delta=0.0605 improve=1.35e-06 t=0.6s
+  [restart_23_scale=0.005] iter=  10 obj=0.381381936238120 alpha=0.00000 active=500 delta=0.0078 improve=0.00e+00 t=2.5s
+  [restart_23_scale=0.005] iter=  20 obj=0.381381901782745 alpha=0.00061 active=221 delta=0.0002 improve=3.45e-08 t=5.2s
+  [restart_23_scale=0.005] iter=  30 obj=0.381381900988121 alpha=0.00000 active=222 delta=0.0000 improve=0.00e+00 t=6.7s
+  [restart_23_scale=0.005] Early stop at iter 31 (improve=0.00e+00, delta=1.87e-05)
+  [restart_23_scale=0.005] Done in 6.8s. Best obj=0.381381900988121
+  No improvement: 0.381381900988121 >= 0.380870088324574
+
+=== Restart 24/25: scale=0.0100, init_obj=0.382689592264837 ===
+  [restart_24_scale=0.01] Start obj=0.382691349439198
+  [restart_24_scale=0.01] iter=   1 obj=0.382691349439198 alpha=0.00000 active=321 delta=0.0500 improve=0.00e+00 t=0.1s
+  [restart_24_scale=0.01] iter=   2 obj=0.382674494358163 alpha=0.14874 active=321 delta=0.0350 improve=1.69e-05 t=0.2s
+  [restart_24_scale=0.01] iter=   3 obj=0.382674494358163 alpha=0.00000 active=500 delta=0.0385 improve=0.00e+00 t=0.5s
+  [restart_24_scale=0.01] iter=  10 obj=0.382666767048587 alpha=0.01842 active=500 delta=0.0032 improve=7.73e-06 t=2.6s
+  [restart_24_scale=0.01] iter=  20 obj=0.382666601208753 alpha=0.00000 active=500 delta=0.0005 improve=0.00e+00 t=5.5s
+  [restart_24_scale=0.01] iter=  30 obj=0.382666601206959 alpha=0.00000 active=47 delta=0.0000 improve=0.00e+00 t=6.7s
+  [restart_24_scale=0.01] Early stop at iter 31 (improve=4.49e-14, delta=1.87e-05)
+  [restart_24_scale=0.01] Done in 6.8s. Best obj=0.382666601206914
+  No improvement: 0.382666601206914 >= 0.380870088324574
+
+=== Restart 25/25: scale=0.0200, init_obj=0.383605564418383 ===
+  [restart_25_scale=0.02] Start obj=0.383606165768651
+  [restart_25_scale=0.02] iter=   1 obj=0.383411710234078 alpha=0.13811 active=131 delta=0.0500 improve=1.94e-04 t=0.1s
+  [restart_25_scale=0.02] iter=   2 obj=0.383346513681809 alpha=0.00517 active=500 delta=0.0550 improve=6.52e-05 t=0.3s
+  [restart_25_scale=0.02] iter=   3 obj=0.383345732852149 alpha=0.00008 active=500 delta=0.0605 improve=7.81e-07 t=0.5s
+  [restart_25_scale=0.02] iter=  10 obj=0.383345732852149 alpha=0.00000 active=225 delta=0.0078 improve=0.00e+00 t=2.1s
+  [restart_25_scale=0.02] iter=  20 obj=0.383345728183998 alpha=0.00011 active=43 delta=0.0002 improve=4.67e-09 t=3.1s
+  [restart_25_scale=0.02] iter=  30 obj=0.383345728088715 alpha=0.00000 active=43 delta=0.0000 improve=0.00e+00 t=3.9s
+  [restart_25_scale=0.02] Early stop at iter 31 (improve=0.00e+00, delta=1.19e-05)
+  [restart_25_scale=0.02] Done in 4.0s. Best obj=0.383345728088715
+  No improvement: 0.383345728088715 >= 0.380870088324574
+
+============================================================
+FINAL BEST: 0.380870088324574 from 'tiled-seed'
+============================================================
+Saved to /Users/wujiewang/code/erdos/orbits/slp-2048-multistart/solution.py
+
+Results summary:
+Starting Point                                                 Init Obj            Final Obj
+--------------------------------------------------------------------------------------------
+tiled-seed                                            0.380870088424490    0.380870088324574 ***
+restart_1_scale=0.001                                 0.381019952103179    0.380966366995504
+restart_2_scale=0.003                                 0.381352159910777    0.381216020992888
+restart_3_scale=0.005                                 0.381613246955463    0.381317775820979
+restart_4_scale=0.01                                  0.382391389892316    0.381621020603434
+restart_5_scale=0.02                                  0.384364502717155    0.384181265517254
+restart_6_scale=0.001                                 0.381008824736860    0.380948324698121
+restart_7_scale=0.003                                 0.381435934499411    0.381209793463190
+restart_8_scale=0.005                                 0.381651174554172    0.381352553353035
+restart_9_scale=0.01                                  0.382639362622425    0.382151839837348
+restart_10_scale=0.02                                 0.384148615919161    0.384152872168396
+restart_11_scale=0.001                                0.381079936930651    0.380981339035952
+restart_12_scale=0.003                                0.381334827370311    0.381270039127104
+restart_13_scale=0.005                                0.381731948357215    0.381350800773729
+restart_14_scale=0.01                                 0.382606129454886    0.382420187296216
+restart_15_scale=0.02                                 0.383853578967525    0.383854430801822
+restart_16_scale=0.001                                0.381039322448373    0.381009501155329
+restart_17_scale=0.003                                0.381278290093958    0.381063349176164
+restart_18_scale=0.005                                0.381760683760949    0.381375943393161
+restart_19_scale=0.01                                 0.382384664964662    0.381871258427835
+restart_20_scale=0.02                                 0.384564026470077    0.384565777258844
+restart_21_scale=0.001                                0.381033980080198    0.380950173762473
+restart_22_scale=0.003                                0.381503200464548    0.381287580216869
+restart_23_scale=0.005                                0.381752251110722    0.381381900988121
+restart_24_scale=0.01                                 0.382689592264837    0.382666601206914
+restart_25_scale=0.02                                 0.383605564418383    0.383345728088715
